@@ -1,0 +1,166 @@
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Trading Performance Report</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+        <style>
+            body {
+                background-color: #f8f9fa;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                padding: 40px;
+            }
+            .report-container {
+                background: white;
+                border-radius: 12px;
+                box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+                padding: 40px;
+                max-width: 1200px;
+                margin: 0 auto;
+            }
+            h1 {
+                color: #2c3e50;
+                text-align: center;
+                margin-bottom: 30px;
+                font-weight: 600;
+            }
+            table {
+                width: 100%;
+                border-collapse: separate;
+                border-spacing: 0;
+            }
+            th {
+                background-color: #34495e !important;
+                color: white !important;
+                padding: 18px 15px !important;
+                text-align: center !important;
+                font-weight: 500;
+                letter-spacing: 0.5px;
+                text-transform: uppercase;
+                font-size: 0.9rem;
+            }
+            td {
+                padding: 16px 20px !important;
+                vertical-align: middle;
+                border-bottom: 1px solid #eee;
+                font-size: 1rem;
+                text-align: right;
+            }
+            tr:hover td {
+                background-color: #f1f1f1 !important;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="report-container">
+            <h1>Profit Factor Analysis</h1>
+            <div class="table-responsive">
+                <style type="text/css">
+#T_67f8d_row0_col0 {
+  width: 10em;
+  background: linear-gradient(90deg, #2ecc71 58.1%, transparent 58.1%);
+}
+#T_67f8d_row0_col1 {
+  width: 10em;
+  background: linear-gradient(90deg, #e74c3c 58.0%, transparent 58.0%);
+}
+#T_67f8d_row0_col2 {
+  background-color: #006837;
+  color: #f1f1f1;
+}
+#T_67f8d_row1_col0 {
+  width: 10em;
+  background: linear-gradient(90deg, #2ecc71 100.0%, transparent 100.0%);
+}
+#T_67f8d_row1_col1, #T_67f8d_row4_col0 {
+  width: 10em;
+}
+#T_67f8d_row1_col2 {
+  background-color: #39a758;
+  color: #f1f1f1;
+}
+#T_67f8d_row2_col0 {
+  width: 10em;
+  background: linear-gradient(90deg, #2ecc71 15.2%, transparent 15.2%);
+}
+#T_67f8d_row2_col1 {
+  width: 10em;
+  background: linear-gradient(90deg, #e74c3c 82.3%, transparent 82.3%);
+}
+#T_67f8d_row2_col2 {
+  background-color: #bbe278;
+  color: #000000;
+}
+#T_67f8d_row3_col0 {
+  width: 10em;
+  background: linear-gradient(90deg, #2ecc71 0.0%, transparent 0.0%);
+}
+#T_67f8d_row3_col1 {
+  width: 10em;
+  background: linear-gradient(90deg, #e74c3c 57.0%, transparent 57.0%);
+}
+#T_67f8d_row3_col2, #T_67f8d_row4_col2 {
+  background-color: #a50026;
+  color: #f1f1f1;
+}
+#T_67f8d_row4_col1 {
+  width: 10em;
+  background: linear-gradient(90deg, #e74c3c 100.0%, transparent 100.0%);
+}
+</style>
+<table id="T_67f8d" class="table table-hover table-striped">
+  <thead>
+    <tr>
+      <th class="blank level0" >&nbsp;</th>
+      <th id="T_67f8d_level0_col0" class="col_heading level0 col0" >Gross Profit</th>
+      <th id="T_67f8d_level0_col1" class="col_heading level0 col1" >Gross Loss</th>
+      <th id="T_67f8d_level0_col2" class="col_heading level0 col2" >Profit Factor</th>
+    </tr>
+    <tr>
+      <th class="index_name level0" >Symbol</th>
+      <th class="blank col0" >&nbsp;</th>
+      <th class="blank col1" >&nbsp;</th>
+      <th class="blank col2" >&nbsp;</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th id="T_67f8d_level0_row0" class="row_heading level0 row0" >XAUUSD</th>
+      <td id="T_67f8d_row0_col0" class="data row0 col0" >325.40</td>
+      <td id="T_67f8d_row0_col1" class="data row0 col1" >-90.46</td>
+      <td id="T_67f8d_row0_col2" class="data row0 col2" >3.60</td>
+    </tr>
+    <tr>
+      <th id="T_67f8d_level0_row1" class="row_heading level0 row1" >USTEC</th>
+      <td id="T_67f8d_row1_col0" class="data row1 col0" >560.48</td>
+      <td id="T_67f8d_row1_col1" class="data row1 col1" >-211.95</td>
+      <td id="T_67f8d_row1_col2" class="data row1 col2" >2.64</td>
+    </tr>
+    <tr>
+      <th id="T_67f8d_level0_row2" class="row_heading level0 row2" >DE40</th>
+      <td id="T_67f8d_row2_col0" class="data row2 col0" >85.29</td>
+      <td id="T_67f8d_row2_col1" class="data row2 col1" >-39.63</td>
+      <td id="T_67f8d_row2_col2" class="data row2 col2" >2.15</td>
+    </tr>
+    <tr>
+      <th id="T_67f8d_level0_row3" class="row_heading level0 row3" >BTCUSD</th>
+      <td id="T_67f8d_row3_col0" class="data row3 col0" >0.06</td>
+      <td id="T_67f8d_row3_col1" class="data row3 col1" >-92.60</td>
+      <td id="T_67f8d_row3_col2" class="data row3 col2" >0.00</td>
+    </tr>
+    <tr>
+      <th id="T_67f8d_level0_row4" class="row_heading level0 row4" >NVDA.NAS</th>
+      <td id="T_67f8d_row4_col0" class="data row4 col0" >0.00</td>
+      <td id="T_67f8d_row4_col1" class="data row4 col1" >-2.66</td>
+      <td id="T_67f8d_row4_col2" class="data row4 col2" >0.00</td>
+    </tr>
+  </tbody>
+</table>
+
+            </div>
+        </div>
+    </body>
+    </html>
+    
